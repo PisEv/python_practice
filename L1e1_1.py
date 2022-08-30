@@ -12,3 +12,14 @@ i = 0
 while i < 9:
     check_day_of_week()
     i += 1
+
+
+x = 3
+while x > 0 and x < 8:
+    x = int(input())
+    if x > 5 and x < 8:
+        print("Выходной")
+    elif x <= 5 and x > 0:
+        print("Не выходной")
+    else:
+        print("Некорректный ввод")
